@@ -2,11 +2,17 @@ from datasets import load_dataset
 from transformers import pipeline
 
 
+def load_dataset(samples = 10, show = False):
 
-xsum_dataset = load_dataset(
-    "xsum", version="1.2.0", cache_dir=DA.paths.datasets
-)  # Note: We specify cache_dir to use pre-cached data.
+    dataset = load_dataset(
+        "xsum", 
+        version="1.2.0", 
+        # cache_dir=DA.paths.datasets
+    ) 
 
-xsum_sample = xsum_dataset["train"].select(range(10))
+    data = dataset["train"].select(range(samples))
 
-display(xsum_sample.to_pandas())
+    if show:
+        display(data.to_pandas())
+
+    return data
