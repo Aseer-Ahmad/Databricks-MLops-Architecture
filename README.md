@@ -4,17 +4,18 @@ https://mlflow.org/docs/latest/index.html
 https://docs.delta.io/latest/quick-start.html#set-up-apache-spark-with-delta-lake
 
 <p align="center">
-  <img src="/imgs/learn-core-components.png" width="45%" />
+  <img src="imgs/mlflow lifecycle.png" width="45%" />
   <img src="/imgs/mlops-lakehouse.png" width="45%" />
 </p>
 
 
-<h2>Delta Format </h2>: <br>
+<h2>Delta Format </h2>
 Delta Lake is an open-source storage layer that brings reliability to data lakes. It combines the scalability and cost-effectiveness of data lakes with the reliability and performance of data warehouses. Delta Lake provides ACID (Atomicity, Consistency, Isolation, Durability) transactions, scalable metadata handling, and unifies streaming and batch data processing.
 
-<h2>MLFlow </h2>: <br>
+<h2>MLFlow </h2>
 MLflow is an open-source platform designed to streamline the end-to-end machine learning lifecycle. It simplifies various stages, including experimentation, reproducibility, and deployment. MLflow provides four key components: Tracking, Projects, Models, and Model Registry
 
+<br>
 1. data.py <br>
     - read and parse config yaml<br>
     - read data from hugging face datasets <br>
