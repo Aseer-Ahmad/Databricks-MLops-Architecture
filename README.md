@@ -5,7 +5,10 @@ https://docs.delta.io/latest/quick-start.html#set-up-apache-spark-with-delta-lak
 
 <p align="center">
   <img src="imgs/mlflow lifecycle.png" width="100%" />
-  <img src="/imgs/mlops-lakehouse.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="/imgs/mlops-lakehouse.png" width="100%" />
 </p>
 
 
