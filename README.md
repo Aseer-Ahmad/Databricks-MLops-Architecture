@@ -19,9 +19,10 @@ Delta Lake is an open-source storage layer that brings reliability to data lakes
 MLflow is an open-source platform designed to streamline the end-to-end machine learning lifecycle. It simplifies various stages, including experimentation, reproducibility, and deployment. MLflow provides four key components: Tracking, Projects, Models, and Model Registry
 
 <br>
-1. data.py <br>
+1. data.py 
     - read and parse config yaml
     - read data from hugging face datasets 
+    <br>
 2. modelpipeline.py <br>
     - create a hugging face summarizer pipeline with params<br>
 3. experiemnt.py<br>
