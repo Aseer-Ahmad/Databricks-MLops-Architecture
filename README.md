@@ -4,7 +4,7 @@ https://mlflow.org/docs/latest/index.html
 https://docs.delta.io/latest/quick-start.html#set-up-apache-spark-with-delta-lake
 
 <p align="center">
-  <img src="imgs/mlflow lifecycle.png" width="45%" />
+  <img src="imgs/mlflow lifecycle.png" width="100%" />
   <img src="/imgs/mlops-lakehouse.png" width="45%" />
 </p>
 
