@@ -9,7 +9,7 @@ def main(YAML_PTH):
     
     model  = getSummarizationPipeline(config)
 
-    EXP_NAME = ''
+    EXP_NAME = 'cepheus/llm-ops'
     startMLFlowExperiment(config, EXP_NAME, model, data)
 
 if __name__ == '__main__':
