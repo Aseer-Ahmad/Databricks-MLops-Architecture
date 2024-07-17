@@ -1,7 +1,8 @@
 import mlflow
 
 # Tell MLflow Tracking to use this explicit experiment path,
-def startMLFlowExperiment(EXP_NAME, model, data, config):
+def startMLFlowExperiment(config, EXP_NAME, model, data):
+
     mlflow.set_experiment(EXP_NAME)
 
     with mlflow.start_run():

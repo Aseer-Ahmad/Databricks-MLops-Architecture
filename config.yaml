@@ -1,0 +1,7 @@
+hf_model_name : t5-small
+dataset : xsum
+dataset_version : '1.2.0'
+min_length : 20
+max_length : 40
+truncation : true
+do_sample : true
