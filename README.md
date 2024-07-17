@@ -1,6 +1,6 @@
 # Databricks MLOps Architecture
 
-https://mlflow.org/docs/latest/index.html <Br>
+https://mlflow.org/docs/latest/index.html <br>
 https://docs.delta.io/latest/quick-start.html#set-up-apache-spark-with-delta-lake
 
 <p align="center">
@@ -23,15 +23,15 @@ MLflow is an open-source platform designed to streamline the end-to-end machine 
     - read and parse config yaml<br>
     - read data from hugging face datasets <br>
 2. modelpipeline.py <br>
-    - create a hugging face summarizer pipeline with params
-3. experiemnt.py
-    - starts a MLFlow experiment session and sets params to be logged 
-4. modelregistry.py
-    - contains MLFlow unified API client to control model registry, changing stage, loading reigstered models etc.
-5. prod_workflow.py
-    - use spark session with delta lake data format for loading production data, model for batch inferences
-6. main.py
-    - runs an example of experiment logging 
-7. config.yaml
-    configuration params for experiments
+    - create a hugging face summarizer pipeline with params<br>
+3. experiemnt.py<br>
+    - starts a MLFlow experiment session and sets params to be logged <br>
+4. modelregistry.py<br>
+    - contains MLFlow unified API client to control model registry, changing stage, loading reigstered models etc.<br>
+5. prod_workflow.py<br>
+    - use spark session with delta lake data format for loading production data, model for batch inferences<br>
+6. main.py<br>
+    - runs an example of experiment logging <br>
+7. config.yaml<br>
+    configuration params for experiments<br>
 
