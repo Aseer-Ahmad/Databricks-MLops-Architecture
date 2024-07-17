@@ -1,6 +1,6 @@
 # Databricks MLOps Architecture
 
-https://mlflow.org/docs/latest/index.html
+https://mlflow.org/docs/latest/index.html <Br>
 https://docs.delta.io/latest/quick-start.html#set-up-apache-spark-with-delta-lake
 
 <p align="center">
